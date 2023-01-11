@@ -1,0 +1,167 @@
+exo 1
+9595b0ff0040b0d447303ff57b16f43de02275b3 
+in html
+
+exo 2
+atob('Y2UzYjgwM2VkODRjOWNkN2JkYjdmMTY3MWFlZjA3MTUzOGViYzk0OA==') in source file
+console.log()
+ce3b803ed84c9cd7bdb7f1671aef071538ebc948
+
+exo 3
+
+it-is-the-long-secret-that-you-are-looking-for: Grow your business with Odoo and more than 10110055 apps
+
+in response header network
+
+exo 4
+in source file 
+// Password is: 79d5f91e606114f8c657bf855e92adc66b77b653
+
+exo 5
+in application cookies
+passwd = Odoo-99994952985654
+
+
+exo 6
+tmp == " 4 37 37 38 9 7 10 5 9 7 5 5 6 39 37 9 11 8 13 10"
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+check nb from tmp in string
+4BBC97a597556DB9b8da
+
+ex0 7
+/jobs/challenge/0ed/b62/prime.json
+passwd=Odoo-99994952985654
+/IENoZWNrIGluIGFub3RoZXIgcGxhY2UuLi4=
+
+/jobs/challenge/IENoZWNrIGluIGFub3RoZXIgcGxhY2UuLi4=/b62/prime.json
+WW91IG5lZWQgdG8gY2FsbCBhbm90aGVyIHVybCB0byBoYXZlIHRoZSBuZXh0IG1pc3Npb24gLi4uIHdoaWNoIG9uZSA/IENoZWNrIGluIGFub3RoZXIgcGxhY2UuLi4=
+
+
+{ "instructions": "Remove non prime numbers from data then right shift 
+[152th decimal of the constant quantity that determines the area of a circle by multiplying it by the radius squared]5 bits from the remaining numbers, 
+it will give you the alphanumeric password of the next level", 
+
+"numbers": [ 39777, 57459, 5848, 58784, 5538, 1962, 14543, 5253, 24977, 25673, 14173, 33306, 14347, 12289, 14797, 30994, 25189, 14779, 29182, 36595,
+ 24917, 14479, 25873, 14621, 37618, 6152, 49696, 33788, 27223, 18387, 56725, 6391, 14177, 14827, 13093, 61373, 60362, 6856, 25272, 8301, 16418, 13411,
+ 14503, 18200, 45638, 59695, 28608, 25301, 32280, 50555, 41655, 54843, 13452, 22538, 25801, 23438, 13463, 13003, 31453, 25237, 13721, 4195, 13781, 7805,
+ 22406, 12437, 13187, 56511, 28467, 31096, 18338, 41888, 35779, 20452, 63810, 25127, 923, 40838, 64080, 57680, 16413, 20007, 58864, 21091, 38939, 12422,
+ 8603, 12547, 26113, 36027, 58277, 40409, 35155, 33333, 12611, 25229, 39637, 4416, 57706, 13913, 37149, 60831, 26141, 5996, 42956, 26177, 53858, 4553,
+ 13782, 32592, 25121, 58456, 43598, 41841, 24867, 57591, 4916, 61704, 44764, 36849, 21488, 4942, 59043, 57452, 19875, 13799, 60025, 12553, 48769, 1797,
+ 52376, 40517, 25037, 11774, 7756, 24889 ] }
+
+
+primes : [57459, 58784, 1962, 14543, 24977, 25673, 14173, 14347, 12289, 14797, 25189, 14779, 36595, 24917, 14479, 25873, 14621, 6152, 33788, 18387,
+         6391, 14177, 14827, 13093, 60362, 25272, 16418, 13411, 14503, 45638, 28608, 25301, 50555, 54843, 22538, 25801, 13463, 13003, 25237, 13721,
+         13781, 22406, 12437, 13187, 28467, 18338, 35779, 63810, 25127, 40838, 57680, 20007, 21091, 12422, 12547, 26113, 58277, 35155, 12611, 25229,
+         4416, 13913, 60831, 26141, 42956, 26177, 4553, 32592, 25121, 43598, 24867, 4916, 44764, 21488, 59043, 19875, 13799, 12553, 1797, 40517, 25037,
+	 7756, 24889]
+
+
+454780802442448384462787461778452808456443463409419453790806420406788428430388412785392816394788434816818785431392782777
+
+
+
+def is_prime(n):
+  for i in range(2,n):
+    if (n%i) == 0:
+      return False
+  return True
+
+numbers = [14543, 24977, 25673, 14173, 14347, 12289, 14797, 25189, 14779, 24917, 14479, 25873, 14621, 14177, 14827, 13093, 13411, 14503, 25301, 25801, 13463, 13003, 25237, 13721, 13781, 12437, 13187, 25127, 12547, 26113, 12611, 25229, 13913, 26141, 26177, 25121, 13799, 12553, 25037, 24889]
+
+pnumber1b = numbers
+pnumber1a = numbers
+pnumber1c = []
+for x in pnumber1b:
+        if is_prime(x) == False:
+            pnumber1a.remove(x)
+print(pnumber1a)
+
+
+for x in pnumber1a:
+    pnumber1c.append(x >> 8)
+
+print(pnumber1c)
+
+str = ""
+for x in pnumber1c:
+   str += chr(x)
+   
+print(str)
+
+
+
+
+
+
+
+
+
+
+
+
+
+new ex8
+import requests                                    
+from bs4 import BeautifulSoup                          
+import urllib.request as urllib2                        
+
+URL = "./challenge.htm"
+
+def print_readme(url):
+    str = ""
+    html = open(url,'r')                        
+    soup = BeautifulSoup(html, "html.parser") 
+    for link in soup.find_all('span'):
+        txt = link.get_text()
+        if len(txt) and txt[0] != "#":
+            str += link.get_text()
+    print(str)
+print_readme(URL)
+
+
+
+exo 9 
+b&#39;iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAAABmJLR0QA/wD/AP+gvaeTAAAFK0lEQVR4nO3dzY7bOBCF0elB3v+Ve3ZZGB3CMuujNME5y7T14/iCKNMl8uv7+/sfmPbv3TfA30mwSAgWCcEiIVgkBIvErx//9evr68zl15MdO7fxcuZLp1ofe+mva+u7uvSfs/N+d/zpJo1YJASLhGCRECwSPxfvLwZ/TzxWVL4YrLgvnfnYsYMvXnvzJo1YJASLhGCRECwSbxXvL7oa867S/sVOaX9puvzS+x38wtF9gr8ZsUgIFgnBIiFYJD4p3p9pcHJ5sAXl2F097WkrIxYJwSIhWCQEi8SzivedLu/1i9cXWp95p2reefHDy/M1IxYJwSIhWCQEi8QnxftdVeSx0v5SLX9J12t/7Ng3GbFICBYJwSIhWCTeKt6PtaIfW9dlcD2ZS3e1c+YXg19WCkYsEoJFQrBICBaJryc3YwzW1Gt3PVU7uBjk0z5HIxYJwSIhWCQEi8RAz/tOd/n6xQ8pSAff4M6FutnzneXm/8SIRUKwSAgWCcEi8UnbTLcqelFFvnNs1+S+891l8KeFwa8Ub/5vGLFICBYJwSIhWCQ+aZvpptoHdRuf7ugWZz+27+v6ur8ZsUgIFgnBIiFYJAYeWO16sQebvgdb4AdL+/9jV7uZd+4kWCQEi4RgkRh4YPWuBzjvOvOx2fP1scd+4fjszEYsEoJFQrBICBaJn2fej/WNdD3vO2e+vefkg1Otzzx4V2beuZNgkRAsEoJF4q2Z92PtK4OPd64NLhHTXah72HVt5OM2YpEQLBKCRUKwSAwsFbn2kMbtbt+lwa2U1i79aHH7nk1GLBKCRUKwSAgWiZ9n3o/tcPSQpWnWBhvV18fetcpN8XEbsUgIFgnBIiFYJD4p3o9V65d0LTfdc6Q7d7U+9sXOvLxNmngQwSIhWCQEi8RbbTODPSddqXtJ1xJ+l7t2dtXzzlGCRUKwSAgWiZ+L92dW3N2k9l07Og3+Pw/e80iPjRGLhGCRECwSgkVifqnInZLzQDvHO7dxTPeObt8k1ohFQrBICBYJwSIx3zZz6VQvBns/jjXz3LWuS/fryMgUvxGLhGCRECwSgkXirbaZ9V8H1x+/fYHD/Qt1y0zu3MaLwe2u9LxzlGCRECwSgkXirbaZu2r5Y4ukXzr2RVeAX7qNwcd3R85sxCIhWCQEi4Rgkfhk5n3HYDE7uEbKsR2Ouv2eBr+OjHQNGbFICBYJwSIhWCQ+mXnfmajdaZA/tgjlMd0WTt2jv3reuZNgkRAsEoJFYmCH1UHH6vHBfZe6JWLueqp25MVGLBKCRUKwSAgWiU9Wm3nxkBnhSxe6pNvRafDZgp3PaPCh4t+MWCQEi4RgkRAsEm8V72uXysZu2cVuPctLb2HnrrrlZQaZeedOgkVCsEgIFomf22bu8swHRwe/Uly6ULd17YFNcY1YJASLhGCRECwS8zusXnKsLt4xONW+fvGlv+4sTbO+0MiPJUYsEoJFQrBICBaJgZ73SwbXV+n2exrcw2h95mKB9Q+OLX7wMGKRECwSgkVCsEh80vP+kHaOS6dal/Y7Bfhda+Bc+usgD6xyJ8EiIVgkBIvEwAOrncHGmJ1afudUa93c+s5k+siaP0YsEoJFQrBICBaJt9Z5H3yQ8q5lF7s+mUuOtc286Obl9bxzlGCRECwSgkXik5n3YwvUHKv0B4vowRd3i7Mf6LExYpEQLBKCRUKwSNy8w+rO94BjM+CD7noC4BI7rPJcgkVCsEgIFolnrfPOX8OIRUKwSAgWCcEiIVgkBIuEYJH4D0pbqak1ogEBAAAAAElFTkSuQmCC&#39;
+
+
+to base 64 
+enlever le b' '
+
+exo 10
+249b133153d4caa503d1507e64b4745d9e5cbb2d
+
+exo 11
+
+
+data = 463188245509640421234810870
+csrf_token = 2877b8ca1ca42971f1b8e38342a72629607d1543o1704498280
+X-Odoo = "!Odoo - All your applications in one single solution"
+
+
+
+ ['4', '6', '3', '1', '8']
+
+getBiskuit('X-Odoo').substring(2,6) = Odoo
+
+stmnt[parseInt(j) +1].charCodeAt(0)
+111
+45
+111
+79
+65
+multi = 2847075075
+8470Odoo75 =>>>>>>> YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+pwd = 463188245509640421234810870
+ts = 463188245509640421234810870
+stmnt = '"!Odoo - All your applications in one single solution"'
+multi = 2847075075
+
+
+I'M A TEAPOT
+
+75
+
+
